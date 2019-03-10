@@ -4,3 +4,5 @@ $.context.genericusertask = {
 		properties: ["ProductID", "ProductName", "UnitsInStock", "UnitsOnOrder"]
 	}
 };
+
+$.context.reorder = $.context.stockinfo.UnitsOnOrder > 0;
